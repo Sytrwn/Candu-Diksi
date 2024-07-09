@@ -30,7 +30,7 @@ function Navbar() {
             >
               <li>
                 <Link
-                  to="home"
+                  to="beranda-section"
                   smooth={true}
                   duration={500}
                   className="text-white cursor-pointer"
@@ -40,7 +40,7 @@ function Navbar() {
               </li>
               <li>
                 <Link
-                  to="card-section"
+                  to="aplikasi-section"
                   smooth={true}
                   duration={500}
                   className="cursor-pointer"
@@ -50,7 +50,7 @@ function Navbar() {
               </li>
               <li>
                 <Link
-                  to="books"
+                  to="card-section"
                   smooth={true}
                   duration={500}
                   className="cursor-pointer"

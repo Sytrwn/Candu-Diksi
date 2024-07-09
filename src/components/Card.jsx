@@ -9,13 +9,17 @@ function Card({ title, content, buttonText }) {
   return (
     <div
       id="card-section"
-      className="flex flex-col sm:flex-row px-4 mt-20 items-center justify-center"
+      className="flex flex-col sm:flex-row px-4  mt-20 items-center justify-center"
     >
       <div className="w-96 mb-4 sm:mb-0 sm:mr-4">
-        <div className="card shadow-2xl bg-hitam text-primary-content">
+        <div className="card shadow-2xl h-80 bg-hitam text-primary-content">
           <div className="card-body text-white">
             <h2 className="card-title">Buku Cerita</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <p>
+              Buku cerita yang mengisahkan legenda rakyat Aceh yang kaya budaya,
+              dilengkapi dengan teknologi Augmented Reality (AR) untuk
+              pengalaman membaca yang interaktif dan mendalam.
+            </p>
             <div className="card-actions justify-center sm:justify-end">
               <div>
                 <button
@@ -58,8 +62,13 @@ function Card({ title, content, buttonText }) {
       <div className="w-96 sm:ml-4">
         <div className="card shadow-2xl bg-hitam text-primary-content">
           <div className="card-body text-white">
-            <h2 className="card-title">Buku Panduan</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <h2 className="card-title">Buku Pedoman Mitra</h2>
+            <p>
+              Buku pedoman mitra dirancang oleh tim PKM candu diksi sebagai
+              acuan dalam pelaksanaan program candu diksi kepada mitra, buku ini
+              berisi tahapan-tahapan pembuatan AR (Augmented Reality 3D) dan
+              juga berisi tahapan-tahapan implementasi program kepada mitra.
+            </p>
             <div className="card-actions justify-center sm:justify-end">
               <button
                 className="btn bg-biru text-white sm:btn-sm md:btn-md text-putih px-6 border-none hover:bg-ungu hover:text-black transform hover:scale-105 transition duration-300"
